@@ -1,0 +1,19 @@
+# T-Mobile configuration file template
+# Copy this file to tmobile.yaml and fill with your personal information
+
+# Phone number ownership - map owners to their phone numbers
+owners_to_phone_numbers:
+  Person1:
+    - "(123) 456-7890"  # Description of line
+    - "(234) 567-8901"  # Another line
+  Person2:
+    - "(345) 678-9012"
+  Person3:
+    - "(456) 789-0123"  # Main phone
+    - "(567) 890-1234"  # Secondary line
+
+# Venmo account mapping
+owner_to_venmo:
+  Person1: "@person1-venmo"
+  Person2: "@person2-venmo"
+  Person3: "@person3-venmo" 
